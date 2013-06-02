@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+TOMCAT
+admin / admin.li328$
+
+BD : http://li328.lip6.fr/phpmyadmin/index.php
+coquart_tome / mdp_fac
+33306
+mysql_host="li328.lip6.fr:33306";
+
+
+
+mongo :
+27130
+login meme que mysql
+mdp binome1
+ssh ssh.ufr-info-p6.jussieu.fr
+ssh login@li328.lip6.fr
+scp monfichier login@li328.lip6.fr:.

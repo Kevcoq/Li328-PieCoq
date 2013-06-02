@@ -1,0 +1,165 @@
+/* Css page et g�n�ral */
+html {
+	margin: 0;
+	padding: 0;
+	background: url(image/background.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	pour
+	Chrome
+	et
+	Safari
+	-moz-background-size
+	:
+	cover;
+	pour
+	Firefox
+	-o-background-size
+	:
+	cover;
+	pour
+	Opera
+	background-size
+	:
+	cover;
+	version
+	standardis�e
+}
+
+#page {
+	width: 1000px;
+	margin: auto;
+}
+
+#header,#gauche,#main,#footer,#recherche {
+	border-left: 10px solid rgba(255, 255, 255, 1);
+	border-right: 10px solid rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+/* Fin page et g�n�ral */
+
+/* La bani�re */
+#header {
+	border-radius: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+#logo,#divconnect {
+	display: table-cell;
+	vertical-align: top;
+}
+
+#logo {
+	width: 700px;
+}
+
+#connectlog {
+	size: 4;
+	text-transform: uppercase;
+}
+
+#form_reste {
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+/* Fin bani�re */
+
+/* Zone recherche */
+#recherche {
+	border-radius: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#text_recherche,#button_recherche,#check_ami {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#text_recherche {
+	margin-bottom: 10px;
+	width: 590px;
+	max-width: 590px;
+}
+
+/* Fin zone recherche */
+
+/* Zone stats */
+#gauche,#main {
+	display: table-cell;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+#gauche {
+	width: 280px;
+}
+
+#main {
+	width: 700px;
+}
+
+/* Fin zone stats */
+
+/* Zone corps */
+.comments {
+	margin-left: 15%;
+	width: 75%;
+}
+
+/* Fin zone corps */
+
+/* Zone pied page */
+#footer {
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+/* Fin zone pied de page */
+
+/* Autres */
+textarea {
+	width: 200px;
+	height: 20px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	margin-top: 10px;
+	font-family: Tahoma, sans-serif;
+}
+
+.button {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed
+		), color-stop(1, #dfdfdf) );
+	background: -moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',
+		endColorstr='#dfdfdf' );
+	background-color: #ededed;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	color: rgb(5, 135, 255);
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 1px 10px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff
+		), color-stop(1, #ffffff) );
+	background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',
+		endColorstr='#ededed' );
+	background-color: #ffffff;
+}
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
